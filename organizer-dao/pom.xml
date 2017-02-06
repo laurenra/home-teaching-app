@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>home-teaching-app</artifactId>
+        <groupId>org.ldr.ht</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ldr.ht</groupId>
+    <artifactId>organizer-dao</artifactId>
+    <version>1.0.0</version>
+    <name>Organizer data access objects</name>
+
+    <properties>
+        <jaxb.api.version>2.2.7</jaxb.api.version>
+        <!--<junit.version>4.12</junit.version>-->
+        <!--<log4j.version>1.2.17</log4j.version>-->
+        <!--<slf4j.version>1.7.14</slf4j.version>-->
+        <spring.version>4.2.5.RELEASE</spring.version>
+
+    </properties>
+
+
+    <dependencies>
+
+        <!--<dependency>-->
+            <!--<groupId>junit</groupId>-->
+            <!--<artifactId>junit</artifactId>-->
+            <!--<version>${junit.version}</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
+        <!-- BYU web services and security -->
+        <!--<dependency>-->
+            <!--<groupId>edu.byu.core.common</groupId>-->
+            <!--<artifactId>common-util</artifactId>-->
+            <!--<version>1.0.0-RC2</version>-->
+        <!--</dependency>-->
+
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Logging - Log4J logger -->
+        <!--<dependency>-->
+            <!--<groupId>log4j</groupId>-->
+            <!--<artifactId>log4j</artifactId>-->
+            <!--<version>${log4j.version}</version>-->
+        <!--</dependency>-->
+
+        <!-- Logging - Log4J -> SLF4J logger -->
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-log4j12</artifactId>-->
+            <!--<version>${slf4j.version}</version>-->
+        <!--</dependency>-->
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <!--&lt;!&ndash; Generates JAXB binding classes &ndash;&gt;            -->
+            <!--<plugin>-->
+            <!--<groupId>org.jvnet.jaxb2.maven2</groupId>-->
+            <!--<artifactId>maven-jaxb2-plugin</artifactId>-->
+            <!--<configuration>-->
+            <!--<schemaDirectory>src/main/resources/xsd/hrs</schemaDirectory>-->
+            <!--</configuration>-->
+            <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
