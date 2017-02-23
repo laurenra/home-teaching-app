@@ -1,0 +1,309 @@
+{
+    "districts": [
+        {
+            "district": "1",
+            "leader": {
+                "personId": "45",
+                "name": "Tom Johnson",
+                "phone": [
+                    {
+                        "type": "mobile",
+                        "number": "8012451526"
+                    }
+                ]
+            },
+            "companionships": [
+                {
+                    "companionshipId": "8",
+                    "homeTeachers": [
+                        {
+                            "homeTeacherId": "3",
+                            "canBeAssigned": true,
+                            "isAssigned": true,
+                            "assignedDate": "2016-01-15",
+                            "notes": "",
+                            "person": {
+                                "personId": "62",
+                                "name": "George Morgan",
+                                "priesthood": "Melchizedek",
+                                "phone": [
+                                    {
+                                        "type": "mobile",
+                                        "number": "8018365120"
+                                    },
+                                    {
+                                        "type": "home",
+                                        "number": "8014581212"
+                                    }
+                                ],
+                                "address": [
+                                    {
+                                        "type": "home",
+                                        "street": "3120 Pine St.",
+                                        "city": "Portland",
+                                        "postal": "94310"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "homeTeacherId": "4",
+                            "canBeAssigned": true,
+                            "isAssigned": true,
+                            "assignedDate": "2016-08-23",
+                            "notes": "",
+                            "person": {
+                                "personId": "10",
+                                "name": "Danny Morgan",
+                                "priesthood": "Aaronic",
+                                "phone": [
+                                    {
+                                        "type": "mobile",
+                                        "number": "8018365120"
+                                    }
+                                ],
+                                "address": [
+                                    {
+                                        "type": "home",
+                                        "street": "3120 Pine St.",
+                                        "city": "Portland",
+                                        "postal": "94310"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "families": [
+                        {
+                            "familyId": 15,
+                            "familyName": "Olsen",
+                            "isAssigned": true,
+                            "address": [
+                                {
+                                    "type": "home",
+                                    "street": "1218 Oak Ave.",
+                                    "city": "Portland",
+                                    "postal": "94310"
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "role": "father",
+                                    "person": {
+                                        "personId": "10",
+                                        "name": "Joseph Caldwell",
+                                        "birthdate": "1987-05-21",
+                                        "sex": "male",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8018365120"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "role": "mother",
+                                    "person": {
+                                        "personId": "10",
+                                        "name": "Suzanne Caldwell",
+                                        "birthdate": "1989-10-05",
+                                        "sex": "female",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8018365160"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "role": "child",
+                                    "person": {
+                                        "personId": "10",
+                                        "name": "Ashley Caldwell",
+                                        "birthdate": "2012-03-12",
+                                        "sex": "female"
+                                    }
+                                },
+                                {
+                                    "role": "child",
+                                    "person": {
+                                        "personId": "10",
+                                        "name": "Freddy Caldwell",
+                                        "birthdate": "2014-08-07",
+                                        "sex": "male"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "district": "2",
+            "leader": {
+                "personId": "13",
+                "name": "Phil Backus",
+                "phone": [
+                    {
+                        "type": "mobile",
+                        "number": "8012478301"
+                    }
+                ]
+            },
+            "companionships": [
+                {
+                    "companionshipId": "4",
+                    "homeTeachers": [
+                        {
+                            "homeTeacherId": "1",
+                            "canBeAssigned": true,
+                            "isAssigned": true,
+                            "assignedDate": "2016-11-02",
+                            "notes": "",
+                            "person": {
+                                "personId": "83",
+                                "name": "Jeff Hansen",
+                                "priesthood": "Melchizedek",
+                                "phone": [
+                                    {
+                                        "type": "mobile",
+                                        "number": "8014301797"
+                                    }
+                                ],
+                                "address": [
+                                    {
+                                        "type": "home",
+                                        "street": "1810 Alder Ln.",
+                                        "city": "Portland",
+                                        "postal": "94310"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "homeTeacherId": "9",
+                            "canBeAssigned": true,
+                            "isAssigned": true,
+                            "assignedDate": "2016-06-25",
+                            "notes": "",
+                            "person": {
+                                "personId": "10",
+                                "name": "Roberto Mendez",
+                                "priesthood": "Melchizedek",
+                                "phone": [
+                                    {
+                                        "type": "mobile",
+                                        "number": "8012451200"
+                                    }
+                                ],
+                                "address": [
+                                    {
+                                        "type": "home",
+                                        "street": "2533 Yew St.",
+                                        "city": "Portland",
+                                        "postal": "94310"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "families": [
+                        {
+                            "familyId": 123,
+                            "familyName": "Yamada",
+                            "isAssigned": true,
+                            "address": [
+                                {
+                                    "type": "home",
+                                    "street": "3908 Cedar Ave.",
+                                    "city": "Portland",
+                                    "postal": "94310"
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "role": "father",
+                                    "person": {
+                                        "personId": "33",
+                                        "name": "Satoshi Yamada",
+                                        "birthdate": "1982-04-16",
+                                        "sex": "male",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8012551835"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "role": "mother",
+                                    "person": {
+                                        "personId": "35",
+                                        "name": "Mariko Yamada",
+                                        "birthdate": "1987-12-11",
+                                        "sex": "female",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8012551856"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "familyId": 37,
+                            "familyName": "Juarez",
+                            "isAssigned": true,
+                            "address": [
+                                {
+                                    "type": "home",
+                                    "street": "1820 Ash Ln.",
+                                    "city": "Portland",
+                                    "postal": "94310"
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "role": "father",
+                                    "person": {
+                                        "personId": "59",
+                                        "name": "Hector Juarez",
+                                        "birthdate": "1978-09-12",
+                                        "sex": "male",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8012451292"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "role": "mother",
+                                    "person": {
+                                        "personId": "63",
+                                        "name": "Felicia Juarez",
+                                        "birthdate": "1980-11-23",
+                                        "sex": "female",
+                                        "phone": [
+                                            {
+                                                "type": "mobile",
+                                                "number": "8012451833"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

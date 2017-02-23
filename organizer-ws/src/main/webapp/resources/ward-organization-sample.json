@@ -1,0 +1,20 @@
+{
+    "unit": "123456",
+    "name": "Edgemont 1st",
+    "type": "Ward",
+    "organizations": [
+        {
+            "organization": "Elders Quorum",
+            "districts": [
+                {
+                    "district": "1",
+                    "companionships":
+
+                },
+                {
+                    "district": "2"
+                }
+            ]
+        }
+    ]
+}
